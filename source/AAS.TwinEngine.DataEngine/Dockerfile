@@ -5,7 +5,7 @@ USER app
 WORKDIR /app
 EXPOSE 8080
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["AAS.TwinEngine.DataEngine/AAS.TwinEngine.DataEngine.csproj", "AAS.TwinEngine.DataEngine/"]
