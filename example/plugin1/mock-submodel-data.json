@@ -1,0 +1,234 @@
+{
+  "https://mm-software.com/submodel/000-001/Nameplate": {
+    "https://admin-shell.io/idta/nameplate/3/0/Nameplate": {
+      "0112/2///61987#ABN590#002": "https://mm-software.com/Model-000/Serial-Nr-001",
+      "0112/2///61987#ABA565#009": {
+        "0112/2///61987#ABA565#009_de": "M&M"
+      },
+      "0112/2///61987#ABP464#002": {
+        "0112/2///61987#ABP464#002_en": "M&MType ABC"
+      },
+      "0112/2///61987#ABA581#007": "MM11-ABC22-001",
+      "0112/2///61987#ABB757#007": "2025-01-01",
+      "0112/2///61360_7#AAS006#001": [
+        {
+          "0112/2///61360_7#AAS009#001": [
+            {
+              "0112/2///61987#ABA231#009": "0173-1#07-DAA603#004",
+              "0112/2///61987#ABH783#003": "KEMA99IECEX1105/128",
+              "0112/2///61987#ABO097#001": "2022-01-01",
+              "0112/2///61987#ABH830#002": "2022-01-01",
+              "0112/2///61987#ABO100#002": "file",
+              "0112/2///61987#ABB146#007": "0044"
+            }
+          ]
+        }
+      ],
+      "0173-1#02-ABI218#003/0173-1#01-AGZ672#004": [
+        {
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP": {
+            "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP_en": "M&MTestsample"
+          },
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryFile": "sampleFile"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-001/Reliability": {
+    "https://admin-shell.io/idta/iec62683/1/0/Reliability": {
+      "0112/2///62683#ACG071#001": [
+        {
+          "0112/2///61987#ABA969#007": "DC",
+          "0112/2///61987#ABA588#004": "14.8",
+          "0112/2///61987#ABD461#004": "3.8",
+          "0112/2///61987#ABD462#004": "6.7",
+          "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0": "78.9",
+          "0112/2///62683#ACE053#001": "TestType001",
+          "0112/2///62683#ACE070#001": "true",
+          "0112/2///62683#ACE055#001": "150",
+          "0112/2///62683#ACE054#001": "45"
+        }
+      ],
+      "0112/2///62683#ACG080#001": [
+        {
+          "0112/2///62683#ACE062#001": "7",
+          "https://admin-shell.io/idta/Reliability/B10/1/0": "1"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-002/Nameplate": {
+    "https://admin-shell.io/idta/nameplate/3/0/Nameplate": {
+      "0112/2///61987#ABN590#002": "https://mm-software.com/Model-000/Serial-Nr-002",
+      "0112/2///61987#ABA565#009": {
+        "0112/2///61987#ABA565#009_de": "M&M"
+      },
+      "0112/2///61987#ABP464#002": {
+        "0112/2///61987#ABP464#002_en": "M&MType ABC002"
+      },
+      "0112/2///61987#ABA581#007": "MM11-ABC22-002",
+      "0112/2///61987#ABB757#007": "2024-01-01",
+      "0112/2///61360_7#AAS006#001": [
+        {
+          "0112/2///61360_7#AAS009#001": [
+            {
+              "0112/2///61987#ABA231#009": "0173-1#07-DAA603#004",
+              "0112/2///61987#ABH783#003": "KEMA99IECEX1105/128",
+              "0112/2///61987#ABO097#001": "2022-01-01",
+              "0112/2///61987#ABH830#002": "2022-01-01",
+              "0112/2///61987#ABO100#002": "file",
+              "0112/2///61987#ABB146#007": "0044"
+            }
+          ]
+        }
+      ],
+      "0173-1#02-ABI218#003/0173-1#01-AGZ672#004": [
+        {
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP": {
+            "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP_en": "M&MTestsample"
+          },
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryFile": "sampleFile"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-002/Reliability": {
+    "https://admin-shell.io/idta/iec62683/1/0/Reliability": {
+      "0112/2///62683#ACG071#001": [
+        {
+          "0112/2///61987#ABA969#007": "DC",
+          "0112/2///61987#ABA588#004": "14.8",
+          "0112/2///61987#ABD461#004": "3.8",
+          "0112/2///61987#ABD462#004": "6.7",
+          "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0": "78.9",
+          "0112/2///62683#ACE053#001": "TestType002",
+          "0112/2///62683#ACE070#001": "true",
+          "0112/2///62683#ACE055#001": "150",
+          "0112/2///62683#ACE054#001": "45"
+        }
+      ],
+      "0112/2///62683#ACG080#001": [
+        {
+          "0112/2///62683#ACE062#001": "7",
+          "https://admin-shell.io/idta/Reliability/B10/1/0": "1"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-003/Nameplate": {
+    "https://admin-shell.io/idta/nameplate/3/0/Nameplate": {
+      "0112/2///61987#ABN590#002": "https://mm-software.com/Model-000/Serial-Nr-003",
+      "0112/2///61987#ABA565#009": {
+        "0112/2///61987#ABA565#009_de": "M&M"
+      },
+      "0112/2///61987#ABP464#002": {
+        "0112/2///61987#ABP464#002_en": "M&MType ABC003"
+      },
+      "0112/2///61987#ABA581#007": "MM11-ABC22-003",
+      "0112/2///61987#ABB757#007": "2025-01-01",
+      "0112/2///61360_7#AAS006#001": [
+        {
+          "0112/2///61360_7#AAS009#001": [
+            {
+              "0112/2///61987#ABA231#009": "0173-1#07-DAA603#004",
+              "0112/2///61987#ABH783#003": "KEMA99IECEX1105/128",
+              "0112/2///61987#ABO097#001": "2022-01-01",
+              "0112/2///61987#ABH830#002": "2022-01-01",
+              "0112/2///61987#ABO100#002": "file",
+              "0112/2///61987#ABB146#007": "0044"
+            }
+          ]
+        }
+      ],
+      "0173-1#02-ABI218#003/0173-1#01-AGZ672#004": [
+        {
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP": {
+            "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP_en": "M&MTestsample"
+          },
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryFile": "sampleFile"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-003/Reliability": {
+    "https://admin-shell.io/idta/iec62683/1/0/Reliability": {
+      "0112/2///62683#ACG071#001": [
+        {
+          "0112/2///61987#ABA969#007": "DC",
+          "0112/2///61987#ABA588#004": "14.8",
+          "0112/2///61987#ABD461#004": "3.8",
+          "0112/2///61987#ABD462#004": "6.7",
+          "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0": "78.9",
+          "0112/2///62683#ACE053#001": "TestType003",
+          "0112/2///62683#ACE070#001": "true",
+          "0112/2///62683#ACE055#001": "150",
+          "0112/2///62683#ACE054#001": "45"
+        }
+      ],
+      "0112/2///62683#ACG080#001": [
+        {
+          "0112/2///62683#ACE062#001": "7",
+          "https://admin-shell.io/idta/Reliability/B10/1/0": "1"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-004/Nameplate": {
+    "https://admin-shell.io/idta/nameplate/3/0/Nameplate": {
+      "0112/2///61987#ABN590#002": "https://mm-software.com/Model-000/Serial-Nr-004",
+      "0112/2///61987#ABA565#009": {
+        "0112/2///61987#ABA565#009_de": "M&M"
+      },
+      "0112/2///61987#ABP464#002": {
+        "0112/2///61987#ABP464#002_en": "M&MType ABC004"
+      },
+      "0112/2///61987#ABA581#007": "MM11-ABC22-001",
+      "0112/2///61987#ABB757#007": "2021-01-01",
+      "0112/2///61360_7#AAS006#001": [
+        {
+          "0112/2///61360_7#AAS009#001": [
+            {
+              "0112/2///61987#ABA231#009": "0173-1#07-DAA603#004",
+              "0112/2///61987#ABH783#003": "KEMA99IECEX1105/128",
+              "0112/2///61987#ABO097#001": "2022-01-01",
+              "0112/2///61987#ABH830#002": "2022-01-01",
+              "0112/2///61987#ABO100#002": "file",
+              "0112/2///61987#ABB146#007": "0044"
+            }
+          ]
+        }
+      ],
+      "0173-1#02-ABI218#003/0173-1#01-AGZ672#004": [
+        {
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP": {
+            "https://mm-software.com/AssetSpecificProperties/ArbitraryMLP_en": "M&MTestsample"
+          },
+          "https://mm-software.com/AssetSpecificProperties/ArbitraryFile": "sampleFile"
+        }
+      ]
+    }
+  },
+  "https://mm-software.com/submodel/000-004/Reliability": {
+    "https://admin-shell.io/idta/iec62683/1/0/Reliability": {
+      "0112/2///62683#ACG071#001": [
+        {
+          "0112/2///61987#ABA969#007": "DC",
+          "0112/2///61987#ABA588#004": "14.8",
+          "0112/2///61987#ABD461#004": "3.8",
+          "0112/2///61987#ABD462#004": "6.7",
+          "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0": "78.9",
+          "0112/2///62683#ACE053#001": "TestType004",
+          "0112/2///62683#ACE070#001": "true",
+          "0112/2///62683#ACE055#001": "150",
+          "0112/2///62683#ACE054#001": "45"
+        }
+      ],
+      "0112/2///62683#ACG080#001": [
+        {
+          "0112/2///62683#ACE062#001": "7",
+          "https://admin-shell.io/idta/Reliability/B10/1/0": "1"
+        }
+      ]
+    }
+  }
+}
