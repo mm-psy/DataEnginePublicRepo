@@ -6,6 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
+    open-pull-requests-limit: 30
     directory: "/source"
     schedule:
       interval: "weekly"
