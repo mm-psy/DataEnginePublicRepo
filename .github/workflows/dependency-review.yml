@@ -37,6 +37,9 @@ jobs:
           retry-on-snapshot-warnings-timeout: 60
           warn-on-openssf-scorecard-level: 5
           comment-summary-in-pr: always
+          allow-dependencies-licenses: |
+            pkg:nuget/AasCore.Aas3_0,
+            pkg:nuget/AasCore.Aas3.Package
           allow-licenses: |
             Apache-1.0,
             Apache-1.1,
