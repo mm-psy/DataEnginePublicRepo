@@ -2,9 +2,8 @@ name: SBOM Generation
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "release-*" ]
+    tags: [ 'v*.*.*' ]
 
 permissions:
   contents: write
@@ -26,4 +25,3 @@ jobs:
         with:
           name: sbom
           path: /tmp/bom.json
-          retention-days: 2
