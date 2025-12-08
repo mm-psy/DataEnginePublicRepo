@@ -27,8 +27,13 @@ jobs:
       run: dotnet restore --locked-mode
       working-directory: source
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --configuration Release ../source/AAS.TwinEngine.DataEngine.sln
       working-directory: source
-    # - name: Test
-    #   run: dotnet test --no-build --verbosity normal
-    #   working-directory: source
+    - name: Run tests with code coverage
+      run: |
+        dotnet test ../source/AAS.TwinEngine.DataEngine.UnitTests/AAS.TwinEngine.DataEngine.UnitTests.csproj \
+          --configuration Release \
+          --settings ../source/coverlet.runsettings \
+          --collect:"XPlat Code Coverage" \
+          -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+      working-directory: source
