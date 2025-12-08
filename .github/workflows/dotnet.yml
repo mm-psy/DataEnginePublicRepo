@@ -27,7 +27,7 @@ jobs:
       run: dotnet restore --locked-mode
       working-directory: source
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --configuration Release ../source/AAS.TwinEngine.DataEngine.sln
       working-directory: source
     # - name: Test
     #   run: dotnet test --no-build --verbosity normal
