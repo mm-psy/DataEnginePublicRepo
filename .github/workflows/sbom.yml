@@ -6,11 +6,13 @@ on:
     tags: [ 'v*.*.*' ]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   generate-sbom:
-
+    permissions:
+      contents: write
+      
     runs-on: ubuntu-latest
 
     steps:
