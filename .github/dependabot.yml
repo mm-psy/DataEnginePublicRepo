@@ -15,12 +15,14 @@ updates:
       default-days: 3
 
   - package-ecosystem: "docker"
+    open-pull-requests-limit: 10
     target-branch: "develop"
     directory: "/source/AAS.TwinEngine.DataEngine"
     schedule:
       interval: "daily"
 
   - package-ecosystem: "docker-compose"
+    open-pull-requests-limit: 10
     target-branch: "develop"
     directory: "/"
     schedule:
@@ -29,6 +31,7 @@ updates:
       default-days: 3
 
   - package-ecosystem: "github-actions"
+    open-pull-requests-limit: 10
     target-branch: "develop"
     directory: "/"
     schedule:
