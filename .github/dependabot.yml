@@ -5,8 +5,8 @@
 
 version: 2
 updates:
-  open-pull-requests-limit: 10
   - package-ecosystem: "nuget"
+    open-pull-requests-limit: 10
     target-branch: "develop"
     directory: "/source"
     schedule:
