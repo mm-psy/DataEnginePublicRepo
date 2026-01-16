@@ -12,6 +12,7 @@ on:
       - 'develop'
       - 'release/**'
       - 'hotfix/**'
+      - 'feature/**'
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   # pull_request:
