@@ -11,4 +11,7 @@ jobs:
 
     steps:    
     - name: Run validation
-      run: echo "Validating PR"
+      run: |
+        echo "PR Source Branch: ${{ github.head_ref }}"
+        echo "PR Target Branch: ${{ github.base_ref }}"
+        echo "From: ${{ github.head_ref }} -> To: ${{ github.base_ref }}"
