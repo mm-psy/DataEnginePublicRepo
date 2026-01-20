@@ -34,3 +34,5 @@ jobs:
         echo "PR Source Branch: ${{ github.head_ref }}"
         echo "PR Target Branch: ${{ github.base_ref }}"
         echo "From: ${{ github.head_ref }} -> To: ${{ github.base_ref }}"
+
+        echo "PR Reviewers:" ${{ github.event.pull_request.number }}
