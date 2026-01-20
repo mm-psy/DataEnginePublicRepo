@@ -18,6 +18,7 @@ on:
   pull_request:
     branches: 
       - 'main'
+      - 'develop'
       - 'release/**'
       - 'hotfix/**'
 
@@ -71,6 +72,7 @@ jobs:
             type=raw,value=develop-{{sha}},enable=${{startsWith(github.ref, 'refs/heads/develop')}}
             type=raw,value=rc-{{branch}}-{{sha}},enable=${{startsWith(github.ref, 'refs/heads/release/')}}
             type=raw,value={{branch}}-{{sha}},enable=${{startsWith(github.ref, 'refs/heads/hotfix/')}}
+            type=ref,event=pr
 
 
       # Build and push Docker image with Buildx (don't push on PR)
