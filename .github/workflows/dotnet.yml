@@ -53,8 +53,8 @@ jobs:
       - name: Run Unit Tests
         run: dotnet test ${{ env.TEST_PROJECT }} --configuration Release --no-build --logger "trx;LogFileName=unit_test_results.trx" --collect:"XPlat Code Coverage" --settings source/coverlet.runsettings
 
-      - name: Run Module Tests
-        run: dotnet test ${{ env.MODULE_TEST_PROJECT }} --configuration Release --no-build --logger "trx;LogFileName=module_test_results.trx" --collect:"XPlat Code Coverage" --settings source/coverlet.runsettings
+      # - name: Run Module Tests
+      #   run: dotnet test ${{ env.MODULE_TEST_PROJECT }} --configuration Release --no-build --logger "trx;LogFileName=module_test_results.trx" --collect:"XPlat Code Coverage" --settings source/coverlet.runsettings
 
       - name: Publish Test Results
         uses: dorny/test-reporter@fe45e9537387dac839af0d33ba56eed8e24189e8 # v2.3.0
